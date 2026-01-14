@@ -1,6 +1,6 @@
 #include <gtk/gtk.h>
 
-static void app_activate(GApplication *app, gpointer *user_data) {
+static void app_activate(GApplication *app, gpointer user_data) {
   g_print ("GtkApplication is activated.\n");
 }
 
